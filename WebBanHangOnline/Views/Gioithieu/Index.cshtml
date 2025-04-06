@@ -1,0 +1,251 @@
+﻿@{
+    ViewBag.Title = "Giới Thiệu - COLOSHOP";
+}
+
+<!-- Header Section -->
+<header class="intro-header">
+    <div class="intro-overlay"></div>
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <h1 class="intro-title">CHÀO MỪNG ĐẾN VỚI COLOSHOP</h1>
+        <p class="intro-subtitle">Thời trang đẳng cấp - Phong cách riêng bạn</p>
+    </div>
+</header>
+
+<!-- Giới Thiệu Section -->
+<section class="about-section">
+    <div class="container">
+        <h2>Giới Thiệu Về COLOSHOP</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="~/Uploads/_thumbs/Images/sanpham/logo.png" alt="COLOSHOP Introduction" class="img-fluid" />
+            </div>
+            <div class="about-text">
+                <p>
+                    COLOSHOP là điểm đến lý tưởng cho những tín đồ thời trang yêu thích sự độc đáo và tinh tế.
+                    Được thành lập với sứ mệnh mang đến những bộ sưu tập quần áo hiện đại, chất lượng cao,
+                    chúng tôi tự hào là nơi hội tụ của phong cách và cá tính. Từ những thiết kế tối giản
+                    đến những xu hướng thời thượng, COLOSHOP luôn cam kết mang lại trải nghiệm mua sắm tuyệt vời
+                    cho khách hàng.
+                </p>
+                <p>
+                    Với đội ngũ thiết kế tài năng và sự lựa chọn chất liệu cao cấp, mỗi sản phẩm tại COLOSHOP
+                    đều là một tác phẩm nghệ thuật. Chúng tôi không chỉ bán quần áo, mà còn truyền cảm hứng
+                    để bạn tự tin thể hiện bản thân qua từng bộ trang phục.
+                </p>
+                <a href="@Url.Action("Index", "Products")" class="btn btn-primary">Khám Phá Bộ Sưu Tập</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="mission-section">
+    <div class="container">
+        <h2>Sứ Mệnh Của Chúng Tôi</h2>
+        <div class="mission-items">
+            <div class="mission-item">
+                <i class="fas fa-leaf"></i>
+                <h3>Thân Thiện Với Môi Trường</h3>
+                <p>Chúng tôi sử dụng chất liệu bền vững để bảo vệ hành tinh xanh.</p>
+            </div>
+            <div class="mission-item">
+                <i class="fas fa-users"></i>
+                <h3>Khách Hàng Là Trung Tâm</h3>
+                <p>Mọi thiết kế đều được tạo ra để phục vụ và tôn vinh phong cách của bạn.</p>
+            </div>
+            <div class="mission-item">
+                <i class="fas fa-heart"></i>
+                <h3>Đam Mê Thời Trang</h3>
+                <p>Mỗi sản phẩm là kết tinh của sự sáng tạo và tình yêu với thời trang.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Policy Section -->
+<section class="policy-section">
+    <div class="container">
+        <div class="policy-items">
+            <div class="policy-item">
+                <i class="fas fa-truck"></i>
+                <h3>MIỄN PHÍ VẬN CHUYỂN</h3>
+                <p>Áp dụng cho một số hình thức</p>
+            </div>
+            <div class="policy-item">
+                <i class="fas fa-money-bill-wave"></i>
+                <h3>THANH TOÁN KHI NHẬN HÀNG</h3>
+                <p>Xu hướng phổ biến trên Internet</p>
+            </div>
+            <div class="policy-item">
+                <i class="fas fa-undo-alt"></i>
+                <h3>ĐỔI TRẢ 45 NGÀY</h3>
+                <p>Đảm bảo sự hài lòng</p>
+            </div>
+            <div class="policy-item">
+                <i class="fas fa-clock"></i>
+                <h3>MỞ CỬA CẢ TUẦN</h3>
+                <p>8AM - 9PM</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Section -->
+<!--<footer class="footer-section">
+    <div class="container">
+        <p>&copy; 2025 COLOSHOP. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</footer>-->
+<!-- Liên kết CSS -->
+<link rel="stylesheet" type="text/css" href="~/Content/assets/styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="~/Content/assets/styles/contact_responsive.css">
+
+<!-- Liên kết Font Awesome (cho các biểu tượng) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+<!-- CSS tùy chỉnh cho trang -->
+<style>
+    .intro-header {
+        position: relative;
+        background: url('~/Content/assets/images/banner.jpg') no-repeat center center;
+        background-size: cover;
+        height: 400px;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .intro-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .intro-title {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .intro-subtitle {
+        font-size: 1.5rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    .about-section, .mission-section {
+        padding: 50px 0;
+        background: #f9f9f9;
+    }
+
+    .about-content {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about-image img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .about-text {
+        flex: 1;
+    }
+
+    .btn-primary {
+        background-color: #e91e63;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+        .btn-primary:hover {
+            background-color: #c2185b;
+        }
+
+    .mission-items {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .mission-item {
+        text-align: center;
+        max-width: 30%;
+    }
+
+        .mission-item i {
+            font-size: 2rem;
+            color: #e91e63;
+            margin-bottom: 10px;
+        }
+
+    .footer-section {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .social-links {
+        margin-top: 10px;
+    }
+
+    .social-icon {
+        color: white;
+        margin: 0 10px;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+        .social-icon:hover {
+            color: #e91e63;
+        }
+    .policy-section {
+        padding: 20px 0;
+        background: #f1f1f1;
+    }
+
+    .policy-items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .policy-item {
+        text-align: center;
+        max-width: 20%;
+        padding: 10px;
+    }
+
+        .policy-item i {
+            font-size: 2rem;
+            color: #e91e63;
+            margin-bottom: 10px;
+        }
+
+        .policy-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .policy-item p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+</style>
