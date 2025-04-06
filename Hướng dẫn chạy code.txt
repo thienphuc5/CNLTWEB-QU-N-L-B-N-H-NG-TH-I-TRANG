@@ -1,0 +1,11 @@
+Hướng dẫn chạy code
+tải về
+Update-database -Verbose
+add-migration DatabaseNew
+chạy các câu lệnh trong sql
+thông tin thanh toán = thẻ ngân hang
+Ngân hàng	NCB
+Số thẻ	9704198526191432198
+Tên chủ thẻ	NGUYEN VAN A
+Ngày phát hành	07/15
+Mật khẩu OTP	123456
